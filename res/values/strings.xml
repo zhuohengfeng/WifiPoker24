@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Poke24(MultiPlayer)</string>
+    
+    <string name="create_game">Create Game</string>
+	<string name="join_game">Join Game</string>
+	<string name="single_game">Single Game</string>
+	<string name="setting_game">Game Setting</string>
+	
+	<string name="input_name">Input Game Name</string>
+	<string name="game_name">Game Name</string>
+	<string name="game_back">Back</string>
+	<string name="game_refresh">Refresh</string>
+	
+	<string name="start_game">Start Game</string>
+	
+	<string name="game_wait">Waiting</string>
+	<string name="game_player">Player</string>
+	
+	<string name="input_player_name">Set Player Name</string>
+	
+	<string name="game_confirm">OK</string>
+	
+	
+	<string name="game_help">Solution</string>
+	<string name="game_change">Shake then Change</string>
+	<string name="game_score">Score:</string>
+	
+	
+	<string name="game_verify">Verify</string>
+	<string name="game_nosolution">No Soluton</string>
+	<string name="game_input_verify">Input the expression</string>
+	<string name="clean_verify">Clean</string>
+	
+	<string name="take_easy">Take easy</string>
+	<string name="expression_error">Expression error</string>
+	<string name="expression_not_null">Please input the expression</string>
+	<string name="evaluate_failed">Failed</string>
+	<string name="evaluate_pass">Pass</string>
+	
+	<string name="none_solution">None solution</string>
+	<string name="solution_count">There are solution</string>
+	<string name="solution_count_after">""</string>
+	<string name="have_solution">Sorry, it have solution</string>
+	
+	<string name="please_turn_on">please shake to turn porks</string>
+	
+	
+	
+	<string name="game_err_noenough_player">Minimum 2 players required to play!</string>
+	<string name="game_err_no_wifi">please to connect the wifi!</string>
+	<string name="game_err_dis_connect">There was a problem with the connection</string>
+	
+	
+</resources>

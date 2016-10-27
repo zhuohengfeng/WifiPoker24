@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:padding="8dip"
+	android:gravity="bottom"
+    android:background="@drawable/background" >
+    
+    <TextView
+        android:layout_marginTop="52dp"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+		android:gravity="center"
+	    android:padding="8dip"
+	    android:textSize="18dip"
+	    android:text="@string/game_wait"
+	    android:background="#22111111" />
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent" 
+	    android:padding="4dip" >
+	    <TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="150dip"
+		    android:textSize="18dip"
+		    android:textColor="#111"
+		    android:text="@string/game_name" />
+	   	<TextView
+			android:id="@+id/WaitingServername"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="fill_parent"
+		    android:gravity="center"
+		    android:textSize="18dip"
+		    android:textColor="#000"
+		    android:singleLine="true"
+	    	android:background="#22EEEEEE"  />
+    </LinearLayout>
+    
+    <!-- 列出当前连接上的玩家 -->
+    <TextView
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+		android:gravity="center"
+	    android:padding="8dip"
+	    android:textSize="18dip"
+	    android:text="玩家"
+	    android:background="#22111111" />
+    <ScrollView
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_weight="1"
+		android:fillViewport="true" >
+		<LinearLayout
+			android:id="@+id/Players"
+		    android:orientation="vertical"
+		    android:layout_height="match_parent"
+		    android:layout_width="fill_parent" />
+	</ScrollView>
+    
+    
+	<Button
+	    android:textStyle="bold" 
+		android:id="@+id/Start"
+		android:layout_margin="10dp"
+		android:background="@drawable/welcome_btn"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:visibility="invisible"
+	    android:text="@string/start_game" />
+	<Button
+	    android:textStyle="bold" 
+		android:id="@+id/Back"
+		android:layout_margin="10dp"
+		android:background="@drawable/welcome_btn"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="@string/game_back" />
+	
+</LinearLayout>

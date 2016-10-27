@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">一起算24点(多人)</string>
+    
+    <string name="create_game">创建游戏</string>
+	<string name="join_game">加入游戏</string>
+	<string name="single_game">单人游戏</string>
+	<string name="setting_game">游戏设置</string>
+	
+	<string name="input_name">输入游戏名称</string>
+	<string name="game_name">当前游戏名称</string>
+	<string name="game_back">返回</string>
+	<string name="game_refresh">刷新</string>
+	
+	<string name="start_game">开始游戏</string>
+	
+	<string name="game_wait">当前游戏</string>
+	<string name="game_player">玩家</string>
+	
+	<string name="input_player_name">设置角色名称</string>
+	
+	<string name="game_confirm">确认</string>
+	
+	<string name="game_help">查看答案</string>
+	<string name="game_change">摇一摇 ，换一下</string>
+	<string name="game_score">当前得分:</string>
+	
+	<string name="game_verify">验证</string>
+	<string name="game_nosolution">无解</string>
+	<string name="game_input_verify">点击图片输入计算公式</string>
+	<string name="clean_verify">清除</string>
+	
+	<string name="take_easy">不要急，慢慢来</string>
+	<string name="expression_error">表达式错误</string>
+	<string name="expression_not_null">计算公式不能为空</string>
+	<string name="evaluate_failed">对不起，计算错误</string>
+	<string name="evaluate_pass">恭喜您，答对了</string>
+	
+	<string name="none_solution">此题无解</string>
+	<string name="solution_count">此题解法有</string>
+	<string name="solution_count_after">种</string>
+	<string name="have_solution">对不起，此题有解</string>
+	
+	<string name="please_turn_on">请摇一摇翻牌</string>
+	
+	
+	
+	
+	<string name="game_err_noenough_player">至少需要2个以上玩家参与游戏!</string>
+	<string name="game_err_no_wifi">请保证已连接上局域网络或个人热点!</string>
+	<string name="game_err_dis_connect">其他玩家已经断开连接!</string>
+	
+	
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+	<LinearLayout
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="60dp"
+	    android:orientation="horizontal"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent">
+		<TextView
+		    android:layout_margin="10dp"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:textSize="20dp"
+		    android:padding="8dip"
+		    android:textColor="#000000"
+		    android:background="#22111111"
+		    android:text="@string/input_player_name" />
+	   	<EditText
+	   	    android:layout_margin="10dp"
+			android:id="@+id/PlayerName"
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+			android:inputType="textPersonName" />
+	</LinearLayout>
+    
+	
+	<Button
+	    android:textStyle="bold" 
+	    android:layout_alignParentBottom="true"
+		android:id="@+id/confirm"
+		android:layout_margin="10dp"
+		android:background="@drawable/welcome_btn"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="@string/game_confirm" />
+
+</RelativeLayout>

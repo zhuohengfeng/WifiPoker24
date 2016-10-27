@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_marginTop="55dp"
+	    android:gravity="left"
+	    android:paddingLeft="15dp"
+		android:id="@+id/socre_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+		<TextView
+	        android:text="@string/game_score"
+			android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"/> 
+		    
+		<TextView
+	        android:id="@+id/changeTxt"
+	        android:text="0"
+			android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	
+	<LinearLayout
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"
+	    android:layout_below="@+id/socre_layout"
+	    android:background="#22111111"
+		android:id="@+id/pork_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/pork01"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/p_bg"
+		    android:scaleType="fitXY"
+			android:layout_width="0dp" 
+			android:layout_height="150dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/pork02"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/p_bg"
+		    android:scaleType="fitXY"
+			android:layout_width="0dp" 
+			android:layout_height="150dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/pork03"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/p_bg"
+		    android:scaleType="fitXY"
+			android:layout_width="0dp" 
+			android:layout_height="150dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/pork04"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/p_bg"
+		    android:scaleType="fitXY"
+			android:layout_width="0dp" 
+			android:layout_height="150dp"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_marginTop="20dp"
+	    android:gravity="center"
+	    android:layout_below="@+id/pork_layout"
+	    android:background="#22111111"
+		android:id="@+id/operater_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/opt_add"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/add"
+		    android:scaleType="fitXY"
+			android:layout_width="80dp" 
+			android:layout_height="80dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/opt_minus"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/minus"
+		    android:scaleType="fitXY"
+			android:layout_width="80dp" 
+			android:layout_height="80dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/opt_mul"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/mul"
+		    android:scaleType="fitXY"
+			android:layout_width="80dp" 
+			android:layout_height="80dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/opt_div"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/div"
+		    android:scaleType="fitXY"
+			android:layout_width="80dp" 
+			android:layout_height="80dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/opt_left"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/left"
+		    android:scaleType="fitXY"
+			android:layout_width="80dp" 
+			android:layout_height="80dp"/>
+		<ImageView
+		    android:background="?android:attr/selectableItemBackground"
+		    android:layout_weight="1"
+		    android:id="@+id/opt_right"
+		    android:layout_margin="2dp"
+		    android:src="@drawable/right"
+		    android:scaleType="fitXY"
+			android:layout_width="80dp" 
+			android:layout_height="80dp"/>
+	</LinearLayout>
+
+
+	<RelativeLayout
+	    android:gravity="center"
+		android:id="@+id/bottom_layout"
+		android:layout_above="@+id/VerifyBtn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<EditText
+		    android:textSize="20dp"
+		    android:layout_toLeftOf="@+id/CleanBtn"
+		    android:enabled="false"
+			android:id="@+id/VerifyText"
+			android:layout_margin="5dp"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="match_parent" 
+		    android:hint="@string/game_input_verify" />
+		
+		<Button
+		    android:layout_alignParentRight="true"
+			android:id="@+id/CleanBtn"
+			android:layout_margin="5dp"
+			android:background="@drawable/welcome_btn"
+		    android:layout_height="wrap_content" 
+		    android:layout_width="wrap_content" 
+		    android:text="@string/clean_verify" />
+
+	</RelativeLayout>
+	
+	<Button
+	    android:textStyle="bold" 
+	    android:layout_above="@+id/NoSolutionBtn"
+		android:id="@+id/VerifyBtn"
+		android:layout_margin="5dp"
+		android:background="@drawable/welcome_btn"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="@string/game_verify" />
+	
+	<Button
+	    android:textStyle="bold" 
+	    android:layout_alignParentBottom="true"
+		android:id="@+id/NoSolutionBtn"
+		android:layout_margin="5dp"
+		android:background="@drawable/welcome_btn"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:text="@string/game_nosolution" />
+	
+</RelativeLayout>

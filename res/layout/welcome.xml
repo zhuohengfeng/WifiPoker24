@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+	>
+
+	<LinearLayout
+	    android:gravity="center"
+	    android:layout_centerInParent="true"
+	    android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	    
+	    <Button
+	        android:textSize="20dp"
+	        android:textStyle="bold" 
+	        android:paddingLeft="20dp" 
+	        android:paddingRight="20dp"
+	        android:background="@drawable/welcome_btn"
+	        android:text="@string/create_game"
+	        android:layout_margin="15dp"
+	        android:id="@+id/createGameBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	    
+		<Button 
+			android:textSize="20dp"
+			android:textStyle="bold" 
+	        android:paddingLeft="20dp" 
+	        android:paddingRight="20dp"
+		    android:background="@drawable/welcome_btn"
+		    android:text="@string/join_game"
+		    android:layout_margin="15dp"
+	        android:id="@+id/joinGameBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	    
+		<Button 
+			android:textSize="20dp"
+			android:textStyle="bold" 
+	        android:paddingLeft="20dp" 
+	        android:paddingRight="20dp"
+		    android:background="@drawable/welcome_btn"
+		    android:text="@string/single_game"
+		    android:layout_margin="15dp"
+	        android:id="@+id/singleGameBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	
+		<Button 
+			android:textSize="20dp"
+			android:textStyle="bold" 
+	        android:paddingLeft="20dp" 
+	        android:paddingRight="20dp"
+		    android:background="@drawable/welcome_btn"
+		    android:text="@string/setting_game"
+		    android:layout_margin="15dp"
+	        android:id="@+id/settingGameBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	
+	</LinearLayout>
+
+</RelativeLayout>
